@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = props => (
-  <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <nav className="navbar navbar-expand-md navbar-dark bg-dark">
     <a className="navbar-brand" href="#">
       {props.brand}
     </a>
