@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = props => (
   <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="/">
       {props.brand}
-    </a>
+    </Link>
     <button
       className="navbar-toggler"
       type="button"

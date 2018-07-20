@@ -11,6 +11,7 @@ class App extends Component {
           <React.Fragment>
             <Header brand="Restaurant Reviews" />
             <Route exact path="/" component={Home} />
+            <Route path="/place/:place_id" component={Home} />
           </React.Fragment>
         </Router>
       </div>
